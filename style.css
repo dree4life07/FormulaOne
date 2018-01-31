@@ -210,6 +210,11 @@ footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #1f1f1f;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 200px;
+	width: 100%;
 }
 
 footer section.footer-container {
@@ -269,6 +274,13 @@ section.about-container h2 {
 .about-text {
 	width: 370px;
 	float: right;
+}
+
+.about-text p {
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 34px;
+	color: #1a1a1a
 }
 
 
