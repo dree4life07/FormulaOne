@@ -1,0 +1,276 @@
+/* ============ CSS RESET ============*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ============ CSS RESET ENDS ============*/
+
+
+/* ============ HEADER ============*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	height: 83px;
+	background-color: #1a1a1a;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clear {
+	clear: both;
+}
+
+.logo {
+	display: block;
+	float: left;
+	line-height: 83px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+nav {
+	float: right;
+	line-height: 83px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+nav ul li a:hover {
+	color: #5cf96b;
+}
+
+nav ul li a.on {
+	color: #5cf96b;
+}
+
+/* ============ HEADER ENDS ============*/
+
+/* ================================================================*/
+
+/* ============ BILLBOARD ============*/
+
+main.billboard {
+	height: 392px;
+	background-color: #1f1f1f;
+	text-align: center;
+}
+
+main.billboard h1 {
+	color: #fff;
+	font-size: 51px;
+	font-weight: 300;
+	padding-top: 72px;
+}
+
+main.billboard h2 {
+	color: #bbbbbb;
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 60px;
+	margin-top: 25px;
+}
+
+.button {
+	display: block;
+	width: 163px;
+	height: 40px;
+	background-color: #07bc1d;
+	font-size: 14px;
+	font-weight: 800;
+	color: #fff;
+	line-height: 40px;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 37px;
+	text-decoration: none;
+}
+
+/* ============ BILLBOARD ENDS ============*/
+
+/* ================================================================*/
+
+/* ============ CONTENT ============*/
+
+.content {
+	width: 960px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 54px;
+}
+
+.content ul li {
+	display: block;
+	width: 275px;
+	float: left;
+	text-align: center;
+	margin-left: 45px;
+	margin-top: 38px;
+}
+
+section.content ul li.content-middle-block {
+	margin-left: 45px;
+}
+
+section.content ul li.content-right-block {
+	float: right;
+	margin-left: 0;
+	margin-right: 0px;
+}
+
+.content-heading h2 {
+	font-size: 20px;
+	font-weight: 700;
+	color: #636363;
+	margin-top: 26px;
+	margin-bottom: 18px;
+}
+
+.content-note p {
+	font-size: 14px;
+	color: #636363;
+	line-height: 20px;
+}
+
+/* ============ CONTENT ENDS ============*/
+
+/* ================================================================*/
+
+/* ============ FOOTER ============*/
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #1f1f1f;
+}
+
+footer section.footer-container {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+footer section.footer-container h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #dcdcdc;
+	margin-bottom: 30px;
+}
+
+footer section.footer-container h4 {
+	font-size: 18px;
+	font-weight: 300;
+	color: #7a7a7a;
+	margin-bottom: 27px;
+	line-height: 30px;
+}
+
+section.footer-container h4 span.green {
+	color: green;
+}
+
+/* ============ FOOTER ENDS ============*/
+
+/* ================================================================*/
+
+/* ============ ABOUT PAGE BEINGS ============*/
+
+section.about-container {
+	width: 960px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.about-container h2 {
+	text-align: center;
+	font-size: 35px;
+	font-weight: 300;
+	margin-top: 100px;
+	margin-bottom: 80px;
+}
+
+.about-image {
+	width: 548px;
+	float: left;
+}
+
+.about-text {
+	width: 370px;
+	float: right;
+}
+
+
+
+
